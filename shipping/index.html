@@ -18,6 +18,9 @@
     </ul>
   </nav>
   <main id="content">
+    <header id="label-shipping" aria-label="Shipping">
+      <h2>Shipping Information</h2>
+    </header>
     <section id="cart">
       <h2> Cart </h2>
       <ul id="cart-items">
@@ -32,6 +35,18 @@
         <h4> Shipping</h4> <p id="shipping-cost"> $0.00 </p>
         <h4> Total</h4> <p id="total-cost"> $296.01 </p>
     </section>
+    <form id="shipping-form" aria-labelledby="label-shipping">
+      <fieldset name="shipping-form">
+        <ol>
+          <li>
+            <label for="shipping-name"> Full Name: </label>
+            <input type="text" name="shipping-name" id="shipping-name"
+            placeholder="Jane Doe"/>
+          </li>
+        </ol>
+      </fieldset>
+    </form>
+
   </main>
   <footer id="footer">
     <p> &#169; Erika Hernandez 2021</p>
