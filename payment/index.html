@@ -37,8 +37,16 @@
           <h4> Total</h4> <p id="total-cost"> $296.01 </p>
       </section>
     </aside>
-    <form id="payment-form" aria-labelledby="label-payment">
+    <form id="payment" aria-labelledby="label-payment">
+      <fieldset name="payment-form">
+        <ul>
+          <li>
+            <label for="card-number">Card Number:</label>
+            <input type="number" name="card-number" id="card-number" required/>
+          </li>
+        </ul>
 
+      </fieldset>
     </form>
   </main>
   <footer id="footer">
