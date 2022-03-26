@@ -33,3 +33,9 @@ footer {
   padding-top: 20px;
   text-align: center;
 }
+
+aside {
+  width: 50%;
+  float: right;
+  border: thick double #32a1ce;
+}
