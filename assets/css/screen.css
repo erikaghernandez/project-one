@@ -36,6 +36,7 @@ footer {
 }
 
 aside {
+  border: thick double #DF744A;
   float: right;
   padding-left: 20px;
   margin-left: 20px;
