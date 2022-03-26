@@ -35,7 +35,8 @@ footer {
 }
 
 aside {
-  width: 50%;
   float: right;
-  border: thick double #32a1ce;
+  padding-left: 20px;
+  margin-left: 20px;
+  width: 50%;
 }
