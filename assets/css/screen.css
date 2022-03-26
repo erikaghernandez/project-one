@@ -29,6 +29,7 @@ h2 {
 h4 {
   font-weight: lighter;
 }
+
 footer {
   padding-bottom: 20px;
   padding-top: 20px;
@@ -41,4 +42,10 @@ aside {
   padding-left: 20px;
   margin-left: 20px;
   width: 50%;
+}
+
+#header {
+  align-items: center;
+  align-content: space-around;
+  text-align: center;
 }
