@@ -49,3 +49,8 @@ aside {
   align-content: space-around;
   text-align: center;
 }
+
+ul,
+li {
+  padding: 4.277px;
+}
